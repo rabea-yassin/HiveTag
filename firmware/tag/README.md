@@ -1,6 +1,6 @@
 # Tag firmware
 
-nRF Connect SDK (Zephyr) application for the HiveTag sensor tag. It reads the SHT40 and broadcasts protocol v1 advertisements ([PROJECT.md §4.1](../../docs/PROJECT.md#41-ble-advertisement-packet-protocol-v1)).
+nRF Connect SDK (Zephyr) application for the HiveTag sensor tag. It reads the SHT40 and broadcasts protocol v1 advertisements ([docs/protocol.md](../../docs/protocol.md)).
 
 - **Active from:** Phase 0 (blinky, SHT40 over USB) → Phase 1 (v1 packets, duty-cycled) → Phase 2 (intermittent mode)
 - **Board:** Seeed XIAO nRF52840, target `xiao_ble` (check the name in the installed SDK)
