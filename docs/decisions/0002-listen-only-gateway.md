@@ -2,7 +2,6 @@
 
 - **Date:** 2026-09-29
 - **Status:** Accepted
-- **Source:** [PROJECT.md §2](../PROJECT.md#2-decisions-already-made)
 
 ## Context
 Dedicated RF power transmitters (as in RFID) could feed the tags, but they add hardware, regulatory questions, and extra RF near the colonies.

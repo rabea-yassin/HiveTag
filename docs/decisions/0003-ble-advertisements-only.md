@@ -2,13 +2,12 @@
 
 - **Date:** 2026-09-29
 - **Status:** Accepted
-- **Source:** [PROJECT.md §2](../PROJECT.md#2-decisions-already-made)
 
 ## Context
 A BLE connection needs a handshake, stays awake longer, and costs much more energy per reading than a single broadcast.
 
 ## Decision
-Tags send non-connectable advertisements carrying the reading (packet format in PROJECT.md §4.1). There are no connections.
+Tags send non-connectable advertisements carrying the reading (packet format in [protocol.md](../protocol.md)). There are no connections.
 
 ## Consequences
 - Lowest energy per reading. Any gateway or phone can receive the data.

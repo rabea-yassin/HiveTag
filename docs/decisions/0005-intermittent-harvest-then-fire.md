@@ -2,7 +2,6 @@
 
 - **Date:** 2026-09-29
 - **Status:** Accepted
-- **Source:** [PROJECT.md §2](../PROJECT.md#2-decisions-already-made)
 
 ## Context
 Ambient RF delivers about 1 µW or less. A sleeping MCU with a running timer already uses several µW, so a normal sleep/wake cycle would never break even.

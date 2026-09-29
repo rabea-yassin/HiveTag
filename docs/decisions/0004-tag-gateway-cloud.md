@@ -2,7 +2,6 @@
 
 - **Date:** 2026-09-29
 - **Status:** Accepted
-- **Source:** [PROJECT.md §2](../PROJECT.md#2-decisions-already-made)
 
 ## Context
 Direct cellular (NB-IoT, LTE-M) from each tag would remove the gateway, but a cellular transmission needs orders of magnitude more energy than harvesting provides.

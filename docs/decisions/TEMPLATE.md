@@ -2,7 +2,7 @@
 
 - **Date:** YYYY-MM-DD
 - **Status:** Proposed | Accepted | Superseded by [NNNN](NNNN-....md)
-- **Informed by:** links to experiments or outreach notes, if any
+- **Informed by:** links to experiments, or "beekeeper interview" (no names)
 
 ## Context
 What problem or question forced a decision? What constraints apply?
