@@ -1,0 +1,45 @@
+# Private working docs (own private repo) and AI instructions
+/private/
+/CLAUDE.md
+
+# Secrets
+.env
+*.env.local
+
+# OS / editors
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+.coverage
+htmlcov/
+
+# Gateway offline buffer
+*.sqlite
+*.sqlite3
+*.db
+
+# Firmware (Zephyr / nRF Connect SDK)
+build/
+build_*/
+*.uf2
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+
+# Docker volumes
+/data/
