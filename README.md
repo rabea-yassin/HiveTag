@@ -25,11 +25,9 @@ This is a learning-in-public project: an electronics and energy-harvesting journ
 
 | Path | What's there |
 |------|--------------|
-| [docs/PROJECT.md](docs/PROJECT.md) | Full specification, decisions, roadmap (source of truth) |
-| [docs/TASKS.md](docs/TASKS.md) | Current phase task overview (details in GitHub Issues) |
+| [docs/protocol.md](docs/protocol.md) | BLE packet format and ingest API: the contract between all components |
 | [docs/decisions/](docs/decisions/) | Architecture decision records: why things are the way they are |
 | [docs/experiments/](docs/experiments/) | Dated experiment logs: RF survey, power, range, field results |
-| [docs/outreach/](docs/outreach/) | Anonymized summaries of conversations with beekeepers and suppliers |
 | [firmware/tag/](firmware/tag/) | Tag firmware (nRF Connect SDK / Zephyr) |
 | [gateway/](gateway/) | BLE scanner + uploader (Python) |
 | [backend/](backend/) | Ingest API and data model (FastAPI) |
@@ -49,10 +47,10 @@ This is a learning-in-public project: an electronics and energy-harvesting journ
 | 4 | Field pilot + real platform | Beekeeper taps a tag, sees hives, gets alerts |
 | 5–7 | Custom PCBs: matchbox → coin → sticker | |
 
-Full details: [docs/PROJECT.md §7](docs/PROJECT.md#7-roadmap).
+Tasks and progress: [GitHub Issues](https://github.com/rabea-yassin/HiveTag/issues) and [milestones](https://github.com/rabea-yassin/HiveTag/milestones).
 
 ## Next step
 
-1. Order the Phase 0 parts ([PROJECT.md §6.1](docs/PROJECT.md#61-order-now-phase-01)).
+1. Order the Phase 0 parts ([#1](https://github.com/rabea-yassin/HiveTag/issues/1)).
 2. While waiting for them: start the soldering practice kit and learn the multimeter, and install the nRF Connect SDK.
 3. Platform: write the v1 packet decoder and tag simulator in `tools/`, with tests.
