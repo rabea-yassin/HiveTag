@@ -1,6 +1,6 @@
 # YYYY-MM-DD — Experiment title
 
-- **Decision it informs:** e.g. [ADR 0001](../decisions/0001-ambient-rf-primary-energy.md), or open question in PROJECT.md §9
+- **Decision it informs:** e.g. [ADR 0001](../decisions/0001-ambient-rf-primary-energy.md), or an open question
 - **Status:** Planned | Done | Inconclusive
 
 ## Goal
